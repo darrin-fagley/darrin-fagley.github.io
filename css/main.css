@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #b1b1b1;
+  line-height: 1.7;
+}
+
+/***** Main Header Styles *****/
+.main-header {
+  height: 100vh;
+  margin-bottom: 3em;
+}
+
+.main-nav {
+  background: #222;
+  padding: 1.5em 1.5em 1.8em;
+}
+
+.main-nav__items {
+  font-size: 1.3rem;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.main-nav__items a {
+  text-decoration: none;
+  color: #bbb;
+  padding: 15px;
+}
+
+.main-nav__items a:hover,
+.main-nav__items a:active {
+  color: #222;
+  background: #bbb;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #bbb;
+}
+
+.active {
+  border-bottom: 4px solid #bbb;
+}
+
+/* CSS Grid Layout for Navigation */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+  grid-column: 1 / 2;
+}
+
+.main-nav__items {
+  list-style: none;
+}
+
+.landing {
+  height: calc(100% - 78.4px);
+  background: #000 url('../images/pexels-negative-space-169573.jpg') no-repeat
+    center center/cover;
+  opacity: 0.8;
+}
+
+.seperator {
+  width: 95%;
+  margin: 0 auto 3em;
+  border-bottom: 3px solid #222;
+}
+
+/***** About Section Styles *****/
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto 1.5em;
+}
+
+.info,
+.bio {
+  width: 40%;
+  background: #222;
+  color: #bbb;
+  padding: 1.5em;
+  margin: 40px;
+  min-height: 450px;
+}
+
+.about__title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bio-pic {
+  height: 215px;
+  width: 175px;
+  display: inline;
+  float: left;
+  margin-right: 16px;
+}
+
+.bio {
+  float: right;
+}
+
+.info {
+  float: left;
+}
+
+.info__description {
+  float: right;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.p-style {
+  color: #222;
+  background: #bbb;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 3px;
+  margin-right: 0.1em;
+}
+
+.video__title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.video {
+  text-align: center;
+}
+
+.video__description {
+  margin: 5px;
+  padding: 5px;
+}
+
+.video iframe {
+  width: 80%;
+  min-height: 290px;
+}
+
+/***** Main Footer Styles *****/
+.main-footer {
+  font-size: 0.9em;
+  font-weight: bold;
+  /* padding: 5px; */
+  background: #222;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: #bbb;
+  padding: 10px;
+}
+
+.main-footer a:hover,
+.main-footer a:active {
+  color: #222;
+  background: #bbb;
+}
+
+.main-footer__title {
+  color: #bbb;
+  margin-left: 10px;
+}
+
+.main-footer__last-child {
+  margin-right: 10px;
+  color: #bbb;
+}
+
+.footer-item {
+  padding: 10px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, 250px);
+  grid-gap: 10px;
+  justify-content: center;
+  grid-column: 1 / 2;
+}
+
+.main-footer ul {
+  margin-bottom: 0;
+}
+
+svg {
+  margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.landing {
+  background: url('../images/pexels-clem-onojeghuo-175771.jpg') no-repeat center
+    center/cover;
+  opacity: 0.6;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto 1.5em;
+}
+
+.project {
+  background: #222;
+  color: #bbb;
+}
