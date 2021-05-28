@@ -2,12 +2,12 @@
 
 ## pac men exercise
 
-<img src="./img/PacMan1.png />
+<img src="./img/PacMan1.png" />
 
 ## Read Me
 
 <p>
-  Inspired by the Pac Man video game, this exercise uses JavaScript and DOM manipulation to add pac men moving around the screen and also includes logic for collision detection. There are two clickable buttons one is pressed to start the game movement and the every time the second one is pressed a new pac man head is added to the screen.
+  Inspired by the Pac Man video game, this exercise uses JavaScript and DOM manipulation to add pac men moving around the screen and also includes logic for edge detection. There are two clickable buttons one is pressed to start the game movement and the every time the second one is pressed a new pac man head is added to the screen.
 </p>
 
 ## Future Road Map

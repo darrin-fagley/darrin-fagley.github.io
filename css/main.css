@@ -30,7 +30,7 @@ body {
 .main-nav__items a {
   text-decoration: none;
   color: #bbb;
-  padding: 15px;
+  padding: 8px;
 }
 
 .main-nav__items a:hover,
@@ -78,11 +78,6 @@ body {
 
 /***** About Section Styles *****/
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto 1.5em;
-}
-
 .info,
 .bio {
   width: 40%;
@@ -119,8 +114,12 @@ body {
   float: right;
 }
 
-.clear-fix {
-  clear: both;
+.container {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
 }
 
 .p-style {

@@ -4,12 +4,65 @@
   opacity: 0.6;
 }
 
+.active {
+  margin-right: 8px;
+  margin-left: 10px;
+}
+
 .container {
   width: 90%;
   margin: 0 auto 1.5em;
 }
 
 .project {
+  width: 30%;
   background: #222;
   color: #bbb;
+  padding: 1.5em;
+  margin: 40px;
+  min-height: 450px;
+}
+
+.project__title {
+  text-align: center;
+}
+
+.project__img {
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  margin: 25px auto;
+}
+
+.btn-1,
+.btn-2 {
+  background: #bbb;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+}
+
+.btn-1 {
+  margin: 20px auto;
+}
+
+.btn-2 {
+  margin: auto;
+}
+
+.btn-1 a,
+.btn-2 a {
+  color: #222;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.btn-1 a:hover,
+.btn-1 a:focus,
+.btn-2 a:hover,
+.btn-2 a:focus {
+  border-bottom: 3px solid #222;
 }
